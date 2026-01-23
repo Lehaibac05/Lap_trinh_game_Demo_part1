@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 319310371}
   - component: {fileID: 319310372}
-  - component: {fileID: 319310373}
   m_Layer: 0
   m_Name: Flame
   m_TagString: Untagged
@@ -211,18 +210,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &319310373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319310370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 701787ff699c8b94d85965899c23336f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &440600351
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,6 +417,7 @@ GameObject:
   - component: {fileID: 1914207712}
   - component: {fileID: 1914207711}
   - component: {fileID: 1914207713}
+  - component: {fileID: 1914207714}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -524,6 +512,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 244932791495db9438ec689c7c69867c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &1914207714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914207710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e17a0339a3add45a4f5d033e9761d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
+  bulletPrefab: {fileID: 6555975456141407223, guid: bbdec66c2fdcdef42958634ddc905fb0,
+    type: 3}
+  shootingInterval: 0.1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
